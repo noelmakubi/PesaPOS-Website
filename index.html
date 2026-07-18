@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PesaPOS — Your Business, Simplified</title>
+  <meta name="description" content="Modern offline-first POS and business management platform for SMEs in Tanzania and East Africa. Inventory, sales, AI analytics, cloud sync and more.">
+  <meta name="keywords" content="POS, point of sale, Tanzania, Kenya, business, inventory, sales, PesaPOS">
+  <meta property="og:title" content="PesaPOS — Your Business, Simplified">
+  <meta property="og:description" content="Modern offline-first POS and business management platform for SMEs in East Africa.">
+  <meta property="og:image" content="assets/pesapos.png">
+  <link rel="icon" type="image/png" href="assets/pesapos.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-text">PesaPOS</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#features" class="nav-link" data-en="Features" data-sw="Vipengele">Features</a>
+        <a href="#pricing" class="nav-link" data-en="Pricing" data-sw="Bei">Pricing</a>
+        <a href="#download" class="nav-link" data-en="Download" data-sw="Pakua">Download</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <svg class="lang-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span id="langLabel">SW</span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="theme-icon-light" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="theme-icon-dark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge" data-en="Modern Offline-First Business OS" data-sw="Mfumo wa Biashara wa Kisasa Bila Mtandao">Modern Offline-First Business OS</div>
+        <h1 class="hero-title">
+          <span data-en="Your Business," data-sw="Biashara Yako,">Your Business,</span>
+          <span class="hero-highlight" data-en="Simplified." data-sw="Imerahisishwa.">Simplified.</span>
+        </h1>
+        <p class="hero-desc" data-en="World-class POS and business management platform designed for SMEs in Tanzania and East Africa. Inventory, sales, customers, AI analytics, cloud sync and more." data-sw="Jukwaa la kisasa la POS na usimamizi wa biashara lililo mbuniwa kwa SMEs Tanzania na Afrika Mashariki. Hesabu, mauzo, wateja, uchambuzi wa AI, usawazishaji wingu na zaidi.">
+          World-class POS and business management platform designed for SMEs in Tanzania and East Africa. Inventory, sales, customers, AI analytics, cloud sync and more.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary btn-lg">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.394 13l2.304-3.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
+            <span data-en="Get it on Google Play" data-sw="Pakua kwenye Google Play">Get it on Google Play</span>
+            <span class="btn-badge" data-en="Coming Soon" data-sw="Inakaribia">Coming Soon</span>
+          </a>
+          <a href="#download" class="btn btn-outline btn-lg">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span data-en="Download on App Store" data-sw="Pakua kwenye App Store">Download on App Store</span>
+            <span class="btn-badge" data-en="Coming Soon" data-sw="Inakaribia">Coming Soon</span>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label" data-en="Products (Free)" data-sw="Bidhaa (Bure)">Products (Free)</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label" data-en="Languages" data-sw="Lugha">Languages</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label" data-en="Offline Ready" data-sw="Bila Mtandao">Offline Ready</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="phone-screen-header">
+              <div class="phone-greeting">Habari za asubuhi</div>
+              <div class="phone-bizname">PesaPOS Shop</div>
+            </div>
+            <div class="phone-hero-card">
+              <div class="phone-revenue-label">Today's Revenue</div>
+              <div class="phone-revenue">TZS 1,250,000</div>
+              <div class="phone-growth">+12.5% vs yesterday</div>
+              <div class="phone-stats-row">
+                <div class="phone-stat"><span class="phone-stat-num">24</span><span class="phone-stat-lbl">Sales</span></div>
+                <div class="phone-stat"><span class="phone-stat-num">67</span><span class="phone-stat-lbl">Items</span></div>
+              </div>
+            </div>
+            <div class="phone-quick-row">
+              <div class="phone-quick-btn phone-quick-green">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+                <span>New Sale</span>
+              </div>
+              <div class="phone-quick-btn phone-quick-blue">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                <span>Products</span>
+              </div>
+            </div>
+            <div class="phone-activity">
+              <div class="phone-activity-title">Recent Sales</div>
+              <div class="phone-activity-item">
+                <div class="phone-act-dot" style="background:#10B981"></div>
+                <div class="phone-act-info"><span class="phone-act-name">Sale — 3 items</span><span class="phone-act-time">10:32 AM</span></div>
+                <span class="phone-act-amount">TZS 45,000</span>
+              </div>
+              <div class="phone-activity-item">
+                <div class="phone-act-dot" style="background:#F59E0B"></div>
+                <div class="phone-act-info"><span class="phone-act-name">Sale — 1 item</span><span class="phone-act-time">09:15 AM</span></div>
+                <span class="phone-act-amount">TZS 12,500</span>
+              </div>
+            </div>
+          </div>
+          <div class="phone-home-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Everything You Need" data-sw="Kila Kitu Unachohitaji">Everything You Need</h2>
+        <p class="section-subtitle" data-en="Powerful features to run your business smoothly" data-sw="Vipengele vyenye nguvu kusimamia biashara yako kwa urahisi">Powerful features to run your business smoothly</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#05966915;color:#059669;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1z"/><path d="M8 10h8"/><path d="M8 14h4"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Point of Sale" data-sw="Sehemu ya Kuuza">Point of Sale</h3>
+          <p class="feature-desc" data-en="Fast checkout with Cash, M-Pesa, Card, and Credit payment methods. Barcode scanning included." data-sw="Malipo ya haraka kwa Pesa Taslimu, M-Pesa, Kadi, na Deni. Uchanganuzi wa barcode umewekwa.">Fast checkout with Cash, M-Pesa, Card, and Credit payment methods. Barcode scanning included.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#3B82F615;color:#3B82F6;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Inventory" data-sw="Hesabu ya Bidhaa">Inventory</h3>
+          <p class="feature-desc" data-en="Track stock levels, movements, low stock alerts, and inventory valuation. Never run out of products." data-sw="Fuatilia viwango vya hesabu, mazoezi, alama za chini, na ukadiriaji wa hesabu. Usikimbie bidhaa.">Track stock levels, movements, low stock alerts, and inventory valuation. Never run out of products.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#D4AF3715;color:#D4AF37;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7h1a1 1 0 011 1v3a1 1 0 01-1 1h-1v1a2 2 0 01-2 2H5a2 2 0 01-2-2v-1H2a1 1 0 01-1-1v-3a1 1 0 011-1h1a7 7 0 017-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 012-2z"/><line x1="10" y1="17" x2="10" y2="11"/><line x1="14" y1="17" x2="14" y2="11"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="AI Analysis" data-sw="Uchambuzi wa AI">AI Analysis</h3>
+          <p class="feature-desc" data-en="Ask questions about your business in natural language. Get insights on sales, profit, customers, and restocking." data-sw="Uliza maswali kuhusu biashara yako kwa lugha ya kawaida. Pata maarifa kuhusu mauzo, faida, wateja, na kujazwa.">Ask questions about your business in natural language. Get insights on sales, profit, customers, and restocking.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#8B5CF615;color:#8B5CF6;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Cloud Sync" data-sw="Usawazishaji Wingu">Cloud Sync</h3>
+          <p class="feature-desc" data-en="Access your business from multiple devices. Automatic cloud backup keeps your data safe." data-sw="Fikia biashara yako kutoka vifaa vingi. Uhifadhi wa wingu wenye uhakika unalinda data yako.">Access your business from multiple devices. Automatic cloud backup keeps your data safe.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#F59E0B15;color:#F59E0B;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Reports" data-sw="Ripoti">Reports</h3>
+          <p class="feature-desc" data-en="Daily, weekly, and monthly sales reports. Revenue, profit, expenses, and trends at a glance." data-sw="Ripoti za mauzo za kila siku, wiki, na mwezi. Mapato, faida, matumizi, na mwenendo kwa mtazamo mmoja.">Daily, weekly, and monthly sales reports. Revenue, profit, expenses, and trends at a glance.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#10B98115;color:#10B981;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Offline First" data-sw="Bila Mtandao Kwanza">Offline First</h3>
+          <p class="feature-desc" data-en="Works completely without internet. Sync automatically when you're back online." data-sw="Inafanya kazi kabisa bila mtandao. Sawazisha moja kwa moja unaporudi mtandaoni.">Works completely without internet. Sync automatically when you're back online.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#EF444415;color:#EF4444;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Bilingual" data-sw="Lugha Mbili">Bilingual</h3>
+          <p class="feature-desc" data-en="Full support for English and Kiswahili. Switch languages instantly from settings." data-sw="Usaidizi kamili kwa English na Kiswahili. Badilisha lugha mara moja kutoka mipangilio.">Full support for English and Kiswahili. Switch languages instantly from settings.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background:#6366F115;color:#6366F1;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3 class="feature-title" data-en="Credit Sales" data-sw="Mauzo kwa Deni">Credit Sales</h3>
+          <p class="feature-desc" data-en="Sell on credit, track debts, record payments, and monitor outstanding balances per customer." data-sw="Uza kwa deni, fuatilia madeni, rekodi malipo, na uangalie salio la kila mteja.">Sell on credit, track debts, record payments, and monitor outstanding balances per customer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-Store Feature -->
+  <section class="section multistore" id="multistore">
+    <div class="container">
+      <div class="multistore-layout">
+        <div class="multistore-content">
+          <div class="multistore-badge" data-en="Gold Feature" data-sw="Kipengele cha Gold">Gold Feature</div>
+          <h2 class="section-title" style="text-align:left;" data-en="Manage Multiple Stores" data-sw="Simamia Maduka Mengi">Manage Multiple Stores</h2>
+          <p class="multistore-desc" data-en="Run unlimited store locations from a single app. Track sales, inventory, and performance per store or across all stores combined." data-sw="Simamia maduka mengi kutoka app moja. Fuatilia mauzo, hesabu, na utendaji kwa kila duka au kwa maduka yote pamoja.">
+            Run unlimited store locations from a single app. Track sales, inventory, and performance per store or across all stores combined.
+          </p>
+          <ul class="multistore-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-en="Unlimited store locations" data-sw="MADUKA BILA KIKOMO">Unlimited store locations</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-en="Per-store sales & inventory tracking" data-sw="Fuatilia Mauzo & Hesabu kwa kila duka">Per-store sales & inventory tracking</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-en="Store performance comparison" data-sw="Linganisha Utendaji wa Maduka">Store performance comparison</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span data-en="Quick store switching" data-sw="Badilisha Duka Haraka">Quick store switching</span>
+            </li>
+          </ul>
+        </div>
+        <div class="multistore-visual">
+          <div class="store-cards">
+            <div class="store-card store-card-1">
+              <div class="store-card-icon" style="background:#059669;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div class="store-card-info">
+                <span class="store-card-name">Main Branch</span>
+                <span class="store-card-revenue">TZS 850,000</span>
+              </div>
+              <div class="store-card-badge store-badge-active" data-en="Active" data-sw="Inatumika">Active</div>
+            </div>
+            <div class="store-card store-card-2">
+              <div class="store-card-icon" style="background:#3B82F6;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div class="store-card-info">
+                <span class="store-card-name">Kariakoo Store</span>
+                <span class="store-card-revenue">TZS 620,000</span>
+              </div>
+              <div class="store-card-badge store-badge-active" data-en="Active" data-sw="Inatumika">Active</div>
+            </div>
+            <div class="store-card store-card-3">
+              <div class="store-card-icon" style="background:#F59E0B;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div class="store-card-info">
+                <span class="store-card-name">Dar Branch</span>
+                <span class="store-card-revenue">TZS 410,000</span>
+              </div>
+              <div class="store-card-badge store-badge-pending" data-en="New" data-sw="Mpya">New</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Simple, Transparent Pricing" data-sw="Bei Rahisi, Wazi">Simple, Transparent Pricing</h2>
+        <p class="section-subtitle" data-en="Start free, upgrade when you need more" data-sw="Anza bure, boresha unapohitaji zaidi">Start free, upgrade when you need more</p>
+      </div>
+      <div class="pricing-grid">
+        <!-- Free -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <span class="pricing-tier" data-en="Free" data-sw="Bure">Free</span>
+            <div class="pricing-price">
+              <span class="pricing-currency">TZS</span>
+              <span class="pricing-amount">0</span>
+              <span class="pricing-period" data-en="/month" data-sw="/mwezi">/month</span>
+            </div>
+            <p class="pricing-desc" data-en="Start for free, no account required" data-sw="Anza bure, huna akaunti hitajika">Start for free, no account required</p>
+          </div>
+          <ul class="pricing-features">
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Point of Sale" data-sw="Sehemu ya Kuuza">Point of Sale</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="50 Products" data-sw="Bidhaa 50">50 Products</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="20 Customers" data-sw="Wateja 20">20 Customers</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Sales History" data-sw="Historia ya Mauzo">Sales History</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Backup & Restore" data-sw="Hifadhi & Rejesha">Backup & Restore</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Dark Mode" data-sw="Mode ya Giza">Dark Mode</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="English & Kiswahili" data-sw="English na Kiswahili">English & Kiswahili</span></li>
+          </ul>
+          <a href="#download" class="btn btn-outline btn-block" data-en="Get Started" data-sw="Anza Sasa">Get Started</a>
+        </div>
+        <!-- Silver -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <span class="pricing-tier">Silver</span>
+            <div class="pricing-price">
+              <span class="pricing-currency">TZS</span>
+              <span class="pricing-amount">10,000</span>
+              <span class="pricing-period" data-en="/month" data-sw="/mwezi">/month</span>
+            </div>
+            <p class="pricing-desc" data-en="For growing businesses" data-sw="Kwa biashara zinazokua">For growing businesses</p>
+          </div>
+          <ul class="pricing-features">
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="200 Products" data-sw="Bidhaa 200">200 Products</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="100 Customers" data-sw="Wateja 100">100 Customers</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Suppliers Module" data-sw="Moduli ya Wachuuzi">Suppliers Module</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Expenses Tracking" data-sw="Fuatilia Matumizi">Expenses Tracking</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Daily Reports" data-sw="Ripoti za Kila Siku">Daily Reports</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Barcode Scanner" data-sw="Skana ya Barcode">Barcode Scanner</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Credit Sales & Debts" data-sw="Mauzo ya Deni">Credit Sales & Debts</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="CSV Export & Import" data-sw="Hamisha & Ingiza CSV">CSV Export & Import</span></li>
+          </ul>
+          <a href="#download" class="btn btn-outline btn-block" data-en="Upgrade to Silver" data-sw="Boresha hadi Silver">Upgrade to Silver</a>
+        </div>
+        <!-- Gold -->
+        <div class="pricing-card pricing-card-featured">
+          <div class="pricing-badge" data-en="BEST" data-sw="BORA">BEST</div>
+          <div class="pricing-header">
+            <span class="pricing-tier" style="color:#D4AF37;">Gold</span>
+            <div class="pricing-price">
+              <span class="pricing-currency">TZS</span>
+              <span class="pricing-amount">25,000</span>
+              <span class="pricing-period" data-en="/month" data-sw="/mwezi">/month</span>
+            </div>
+            <p class="pricing-desc" data-en="Everything, unlimited" data-sw="Kila kitu, bila kikomo">Everything, unlimited</p>
+          </div>
+          <ul class="pricing-features">
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Unlimited Products" data-sw="Bidhaa Bila Kikomo">Unlimited Products</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Unlimited Customers" data-sw="Wateja Bila Kikomo">Unlimited Customers</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Multi-Store" data-sw="Maduka Mengi">Multi-Store</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Full Reports" data-sw="Ripoti Kamili">Full Reports</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Inventory Tracking" data-sw="Fuatilia Hesabu">Inventory Tracking</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="Cloud Sync" data-sw="Usawazishaji Wingu">Cloud Sync</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="AI Analysis & Predictions" data-sw="Uchambuzi & Utabiri wa AI">AI Analysis & Predictions</span></li>
+            <li><svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <span data-en="WhatsApp Receipts" data-sw="Risiti za WhatsApp">WhatsApp Receipts</span></li>
+          </ul>
+          <a href="#download" class="btn btn-primary btn-block" data-en="Upgrade to Gold" data-sw="Boresha hadi Gold">Upgrade to Gold</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section class="section download" id="download">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-en="Download PesaPOS" data-sw="Pakua PesaPOS">Download PesaPOS</h2>
+        <p class="section-subtitle" data-en="Available on Android, iOS, and direct APK download" data-sw="Inapatikana kwenye Android, iOS, na pakua APK moja kwa moja">Available on Android, iOS, and direct APK download</p>
+      </div>
+      <div class="download-grid">
+        <div class="download-card">
+          <div class="download-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="#059669"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.394 13l2.304-3.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
+          </div>
+          <h3 class="download-title" data-en="Google Play" data-sw="Google Play">Google Play</h3>
+          <span class="download-badge" data-en="Coming Soon" data-sw="Inakaribia">Coming Soon</span>
+        </div>
+        <div class="download-card">
+          <div class="download-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="#059669"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          </div>
+          <h3 class="download-title" data-en="App Store" data-sw="App Store">App Store</h3>
+          <span class="download-badge" data-en="Coming Soon" data-sw="Inakaribia">Coming Soon</span>
+        </div>
+        <a href="#" class="download-card">
+          <div class="download-icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </div>
+          <h3 class="download-title" data-en="Direct APK" data-sw="APK Moja kwa Moja">Direct APK</h3>
+          <p class="download-sub" data-en="v1.0.0 — 15 MB" data-sw="v1.0.0 — 15 MB">v1.0.0 — 15 MB</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/pesapos.png" alt="PesaPOS" class="footer-logo">
+        <span class="footer-name">PesaPOS</span>
+        <p class="footer-tagline" data-en="Your Business, Simplified" data-sw="Biashara Yako, Imerahisishwa">Your Business, Simplified</p>
+      </div>
+      <div class="footer-links">
+        <a href="#features" data-en="Features" data-sw="Vipengele">Features</a>
+        <a href="#pricing" data-en="Pricing" data-sw="Bei">Pricing</a>
+        <a href="#download" data-en="Download" data-sw="Pakua">Download</a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 PesaPOS. <span data-en="All rights reserved." data-sw="Haki zote zimehifadhiwa.">All rights reserved.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
